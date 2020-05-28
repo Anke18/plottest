@@ -1,0 +1,263 @@
+a, i {
+    cursor: pointer;
+}
+
+/* .leaflet-top.leaflet-right {
+    display: none;
+} */
+
+body {
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    height: 100%
+}
+
+.sidebar-panel, .bottom-left, .link-table, .date-plot-panel, .network-panel, .grid-stack-item {
+    border: 1px solid gray;
+}
+
+.sidebar-panel{
+    flex: 2;
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+}
+
+.grid-stack {
+    flex: 2;
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+}
+
+.plot-panel {
+    display: flex;
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.bottom-left, .grid-stack-item {
+    flex: 1;
+    height: 50%;
+    overflow: scroll
+}
+
+.link-table {
+    flex: 1;
+    height: 50%;
+    overflow: scroll;
+}
+
+.date-plot-panel {
+    position: relative;
+    flex: 3;
+    height: 100%;
+    overflow: scroll;
+}
+
+.network-panel {
+    position: relative;
+    flex: 7;
+    height: 70%;
+    overflow: scroll
+}
+
+.fa-question-circle {
+    position: absolute;
+    top: 140px;
+    right: 20px;
+}
+
+.global-search {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+
+#searchBar {
+    width: 150px;
+    height: 25px;
+}
+
+.fa-sliders-h {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.zoom {
+    text-align: center;
+    width: 30px;
+    border: 1px solid gray;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 25px;
+}
+
+.zoom>hr {
+    margin: 5px 0px;
+    width: 30px;
+}
+
+.sidebar-panel>h4 {
+    text-align: center;
+}
+
+.playDate {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+#datePlot {
+    height: 80%;
+    margin-top:40px;
+}
+
+#barPlotControl {
+    position: absolute;
+    top: 1px;
+    right: 3px;
+    z-index: 10;
+    font-size: 20;
+}
+
+#mapid { height: 100%; width: 100%; z-index:1}
+
+.fixed-table-loading {
+    display: none;
+}
+
+#question2 {
+    line-height: 12px;
+    width: 18px;
+    font-size: 12pt;
+    font-family: tahoma;
+    margin-top: 0px;
+    margin-right: 30px;
+    position:absolute;
+    top:0;
+    right:30;
+}
+
+.fa-info-circle {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#viewOld {
+    position:absolute;
+    top: 60px;
+    right: 20px;
+}
+
+.fa-project-diagram {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
+.tooltip-inner {
+    max-width: 400px;
+    width: 400px; 
+}
+
+.fas {
+    font-size: 20px;
+}
+
+.fa-calendar-alt {
+    font-size: 20px;
+}
+
+.fa-search {
+    font-size: 10px;
+    padding: 7 5 3 5;
+    border: 1px solid gray;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#linkMin {
+    width: 3.5em;
+}
+
+#linkMax {
+    width: 3.5em;
+}
+
+#nodeMin {
+    width: 3.5em;
+}
+
+#nodeMax {
+    width: 3.5em;
+}
+
+#charge {
+    width: 3.5em;
+}
+
+.d3-tip {	
+    position: absolute;			
+    text-align: center;			
+    width: 50px;					
+    height: 25px;					
+    padding: 2px;				
+    font: 14px bold;		
+    background: rgba(214, 221, 230, 0.74);	
+    border: 0px;		
+    /*border-radius: 8px;*/	
+    pointer-events: none;			
+}
+
+.fas:focus,
+.fas:hover {
+  color: #FAD689;
+}
+
+/*-----------button--------------*/
+
+#button1{
+    position:absolute;
+    top: 15px;
+    left: 205px;
+}
+#button2{
+    position:absolute;
+    top: 30px;
+    left: 395px;
+}
+#button3{
+    position:absolute;
+    top: 30px;
+    left: 625px;
+}
+
+.mylink:focus,
+.mylink:hover {
+  color: #FAD689;
+}
+
+.icon-btn {
+    height: 30px;
+	font-size: 11px;
+	cursor: pointer;
+	position: relative;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+	outline: none;
+	color: #666;
+	background-color: transparent;
+	white-space: nowrap;
+}
